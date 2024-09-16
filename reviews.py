@@ -14,6 +14,4 @@ sorted = sorted.rename(columns={'description':'count'})
 
 sorted['points'] = sorted['points'].round(1)
 
-# sorted.to_csv('data/reviews_per_country.csv')
-
-print(sorted)
+sorted.to_csv('data/reviews-per-country.csv')
